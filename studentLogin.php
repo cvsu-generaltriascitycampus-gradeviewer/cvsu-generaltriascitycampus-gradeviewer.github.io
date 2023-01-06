@@ -25,13 +25,13 @@ error_reporting(0);
             // if($row['roleId'] == 2){ //if user is Hod
                 
             //     echo "<script type = \"text/javascript\">
-            //     window.location = (\"hod/index.html\")
+            //     window.location = (\"hod/index.php\")
             //     </script>";  
             // }
             // else if($row['roleId'] == 3){ //if user is Dean
                 
             //     echo "<script type = \"text/javascript\">
-            //     window.location = (\"dean/index.html\")
+            //     window.location = (\"dean/index.php\")
             //     </script>";  
             // }
         }
@@ -62,7 +62,6 @@ error_reporting(0);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
     <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
     <link rel="stylesheet" href="assets/css/style2.css">
-
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
   
@@ -73,7 +72,7 @@ error_reporting(0);
         <div class="container">
             <div class="login-content">
                 <div class="login-logo">
-                    <a href="index.html">
+                    <a href="index.php">
                        
                     </a>
                 </div>
@@ -91,7 +90,7 @@ error_reporting(0);
                         </div>
                         <div class="checkbox">
                            <label class="pull-left">
-                                <a href="index.html">Go Back</a>
+                                <a href="index.php">Go Back</a>
                             </label>
                             
                         </div>
