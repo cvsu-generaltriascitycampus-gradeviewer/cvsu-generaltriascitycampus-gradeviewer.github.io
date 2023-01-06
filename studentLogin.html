@@ -19,19 +19,19 @@ error_reporting(0);
             $_SESSION['lastName']=$row['lastName'];
 
             echo "<script type = \"text/javascript\">
-                window.location = (\"student/index.php\")
+                window.location = (\"student/index.html\")
                </script>";  
 
             // if($row['roleId'] == 2){ //if user is Hod
                 
             //     echo "<script type = \"text/javascript\">
-            //     window.location = (\"hod/index.php\")
+            //     window.location = (\"hod/index.html\")
             //     </script>";  
             // }
             // else if($row['roleId'] == 3){ //if user is Dean
                 
             //     echo "<script type = \"text/javascript\">
-            //     window.location = (\"dean/index.php\")
+            //     window.location = (\"dean/index.html\")
             //     </script>";  
             // }
         }
@@ -91,11 +91,9 @@ error_reporting(0);
                         </div>
                         <div class="checkbox">
                            <label class="pull-left">
-                                <a href="index.php">Go Back</a>
+                                <a href="index.html">Go Back</a>
                             </label>
-                            <label class="pull-right">
-                                <a href="#">Forgot Password?</a>
-                            </label>
+                            
                         </div>
                         <br>
                         <button type="submit" name="login" class="btn btn-success btn-flat m-b-30 m-t-30">Log in</button>
